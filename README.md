@@ -3,6 +3,8 @@ Convert the YOLOv4 Darknet format txt files to AutoML csv format for Cloud AutoM
 
 Python version 3.7 or higher
 
+Note: only work with one label
+
 Usage:
 ` python3 convert.py [yolo_txts_path] [gs_path] [label] -o output.csv`
 
@@ -20,3 +22,6 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         Output file name. (default: output.csv)
 ```
+
+TODO:
+- [ ] Make it work with multiple labels
